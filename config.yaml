@@ -1,52 +1,13 @@
 categories: ["cs.AR", "cs.ET", "cs.LG", "cs.AI", "cs.CL", "cs.SY"]
 keywords:
-  # 核心技术：存内计算/存算一体
   - "compute-in-memory"
-  - "computing-in-memory" 
-  - "process-in-memory"
   - "processing-in-memory"
-  - "storage computing"
-  - "in-storage"
   - "in-flash"
-  - "in-memory computing"
-  - "PIM"  # Processing-in-Memory缩写
-  
-  # 存储技术与硬件
-  - "NAND flash"
-  - "flash memory"
-  - "emerging memory"
-  - "non-volatile memory"
-  - "ReRAM"
-  - "MRAM"
-  - "chiplet"
-  
-  # LLM推理与端侧AI
   - "LLM inference"
-  - "on-device inference"
-  - "edge AI"
-  - "mobile LLM"
-  - "efficient LLM"
-  - "attention mechanism"
   - "attention offloading"
-  - "long-context"
-  - "KV cache"
-  
-  # 系统与架构优化
+  - "chiplet"
+  - "NAND flash"
   - "accelerator"
-  - "memory wall"
-  - "bandwidth bottleneck"
-  - "near-memory computing"
-  - "data movement"
-  - "inference acceleration"
-  - "quantization"
-  - "model compression"
-  
-  # 具体技术术语（从您论文中提取）
-  - "inter-bitline"
-  - "bitwise computing"
-  - "integer arithmetic"
-  - "LPDDR"
-  - "non-von Neumann"
 
 # exclude_keywords: # 选择排除的关键词
 #   - "Large Language Model"
