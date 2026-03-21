@@ -8,6 +8,13 @@ keywords:
   - "chiplet"
   - "NAND flash"
   - "accelerator"
+  
+    # 新增：LLM架构/效率关键词（捕获这篇论文）
+  - "attention optimization"
+  - "MoE"  # Mixture of Experts，这篇论文出现了MoE
+  - "LLM architecture"
+  - "transformer architecture"
+  - "Kimi"  # 追踪Kimi Team的产出
 
 # exclude_keywords: # 选择排除的关键词
 #   - "Large Language Model"
