@@ -1,13 +1,13 @@
 categories: ["cs.AR", "cs.ET", "cs.LG", "cs.AI", "cs.CL", "cs.SY"]
 keywords:
   - "compute-in-memory"
-  - "processing-in-memory"
+#  - "processing-in-memory"
   - "in-flash"
-  - "LLM inference"
-  - "attention"
-  - "NAND flash"
+#  - "LLM inference"
+#  - "attention"
+#  - "NAND flash"
   - "accelerator"  
-  - "transformer"
+#  - "transformer"
   - "mamba"
 
 # exclude_keywords: # 选择排除的关键词
