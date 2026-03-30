@@ -2,7 +2,8 @@
 import re
 from typing import List
 
-FIELDS = ("ti", "abs", "co")  # 标题/摘要/评论（会议常在 comments）
+# FIELDS = ("ti", "abs", "co")  # 标题/摘要/评论（会议常在 comments）
+FIELDS = ("ti", "abs")  # 标题/摘要/评论（会议常在 comments）
 
 def _quote(term: str) -> str:
     # 有空格或连字符时加引号，避免被拆词
