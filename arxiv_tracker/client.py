@@ -46,6 +46,7 @@ def _do_get(base_url: str, params: Dict[str, str], timeout: Optional[float] = No
 
     for attempt in range(1, MAX_ATTEMPTS + 1):
         try:
+            time.sleep(2)
             resp = _session.get(base_url, params=params, headers=HEADERS, timeout=timeout)
             # 主动对可重试状态码抛出异常，以走重试逻辑
             if resp.status_code in RETRYABLE_STATUS:
